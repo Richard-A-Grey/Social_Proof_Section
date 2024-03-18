@@ -1,6 +1,108 @@
 body{
     max-width: 1440px;
     font-size: 15px;
+    font-family: Arial;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+}
+
+
+.everything-container{
+    display: flex;
+    width: 100%;
+    margin-top: 0%;
+    flex-direction: column;
+}
+
+
+.top-container{
+    display: flex;
+    width: 100%;
+}
+.top-left-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 5%;
+}
+.tittle-text{
+    font-size: 250%;
+    font-weight: bold;
+    padding-right:45%;
+    color: hsl(300, 43%, 22%);
+}
+.about-text{
+    font-size: 75%;
+    padding-right:45%;
+    line-height: 150%;
+    margin-top: 3%;
+    color: hsla(300, 43%, 22%, 0.763);
+    font-weight: bold;
+}
+.top-right-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.rating-1-container{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.095);
+    width: 56.5%;
+    border-radius: 3px;
+    padding: 2%;
+    margin-top: 15%;
+    margin-left: 0%;
+    font-weight: bold;
+}
+.rating1-stars{
+    display: flex;
+    gap: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rating1-text{
+    font-size: 80%;
+    margin-right: -5%;
+}
+.rating-2-container{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.095);
+    width: 56.5%;
+    border-radius: 3px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.rating2-stars{
+    display: flex;
+    gap: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rating2-text{
+    font-size: 80%;
+    margin-right: -5%;
+}
+.rating-3-container{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.095);
+    width: 56.5%;
+    border-radius: 3px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.rating3-stars{
+    display: flex;
+    gap: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rating3-text{
+    font-size: 80%;
+    margin-right: -5%;
 }
 
 
@@ -8,12 +110,148 @@ body{
 
 
 
+.bottom-container{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-bottom: 12%;
+    margin-right: 1%;
+    margin-left: 0%;
+    margin-top: 25%;
+}
+.profile-colton{
+margin-left: 10%;
+margin-top: 5%;
+}
+.profile-colton img{
+    border-radius: 100px;
+    width: 20%;
+}
+.left-name{
+    font-weight: bold;
+    color: white;
+    margin-top: 0%;
+    margin-left: 30%;
+    font-size: 90%;
+}
+.left-text{
+    color: hsl(333, 80%, 67%);
+    margin-left: 30%;
+    font-size: 80%;
+    opacity: .9;
+}
+.left-about{
+    font-size: 80%;
+    color: white;
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
 
 
 
 
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    margin-right: 1%;
+    margin-left: 0%;
+    margin-top: 27%;
+}
+.profile-irene{
+margin-left: 10%;
+margin-top: 5%;
+}
+.profile-irene img{
+    border-radius: 100px;
+    width: 20%;
+}
+.middle-name{
+    font-weight: bold;
+    color: white;
+    margin-top: 0%;
+    margin-left: 30%;
+    font-size: 90%;
+}
+.middle-text{
+    color: hsl(333, 80%, 67%);
+    margin-left: 30%;
+    font-size: 80%;
+    opacity: .9;
+}
+.middle-about{
+    font-size: 80%;
+    color: white;
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-bottom: 8%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 29%;
+}
+.profile-anne{
+margin-left: 10%;
+margin-top: 5%;
+}
+.profile-anne img{
+    border-radius: 100px;
+    width: 20%;
+}
+.right-name{
+    font-weight: bold;
+    color: white;
+    margin-top: 0%;
+    margin-left: 30%;
+    font-size: 90%;
+}
+.right-text{
+    color: hsl(333, 80%, 67%);
+    margin-left: 30%;
+    font-size: 80%;
+    opacity: .9;
+}
+.right-about{
+    font-size: 80%;
+    color: white;
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 6%;
+}
 
 
 
